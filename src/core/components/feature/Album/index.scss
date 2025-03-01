@@ -1,0 +1,57 @@
+.main_album_container {
+  .main_album {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img {
+      object-fit: contain !important;
+      width: 100%;
+      height: 100%;
+    }
+    .main_header {
+      display: flex;
+      align-items: center;
+      height: 100px;
+      width: 100%;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      color: black;
+      h1 {
+        font-weight: 500;
+        font-size: 22px;
+        letter-spacing: 0.2px;
+      }
+    }
+    .main_carousel_row {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(15%, 1fr));
+      gap: 1rem;
+      justify-content: center;
+      margin: 0 auto;
+      transition: 0.3s ease-in-out;
+      width: 75%;
+      .main_carousel {
+        position: relative;
+        height: 350px;
+        text-align: center;
+        border: 1px solid rgba(38, 41, 43, 0.096);
+        img{
+            width: 100%;
+            height: 100%;
+        }
+      }
+    }
+    .main_carousel_row_swiper{
+      height: 100%;
+      overflow: hidden;
+      gap: 1rem;
+      justify-content: center;
+      margin: 0 auto;
+      transition: 0.3s ease-in-out;
+      width: 75%;
+    }
+  }
+}
