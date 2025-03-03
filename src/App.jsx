@@ -1,5 +1,4 @@
 import React from 'react'
-import {BrowserRouter} from 'react-router-dom'
 import HouseOfQuadri from './apps/HouseOfQuadri';
 
 const App = () => {
@@ -10,4 +9,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;

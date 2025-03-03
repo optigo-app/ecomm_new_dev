@@ -1,0 +1,105 @@
+.main_carousel_row_swiper {
+    height: 100%;
+    gap: 1rem;
+    justify-content: center;
+    margin: 0 auto;
+    transition: 0.3s ease-in-out;
+    width: 75%;
+    .main_carousel {
+      position: relative;
+      text-align: center;
+      .main_img {
+        width: 100%;
+        border: 1px solid rgba(38, 41, 43, 0.096);
+        height: 350px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .carousel-container {
+      position: relative;
+      width: 100%;
+      .custom-nav-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: white;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border: none;
+        padding: 8px;
+        font-size: 20px;
+        cursor: pointer;
+        z-index: 10;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .custom-nav-button.left {
+        left: -20px;
+        z-index: 10;
+      }
+
+      .custom-nav-button.right {
+        right: -20px;
+        z-index: 10;
+      }
+    }
+  }
+
+  .main_carousel_row_swiper_fullscreen{
+      height: 100%;
+      gap: 1rem;
+      justify-content: center;
+      margin: 0 auto;
+      transition: 0.3s ease-in-out;
+      width: 100%;
+      .main_carousel {
+        position: relative;
+        text-align: center;
+        .main_img {
+          width: 100%;
+          border: 1px solid rgba(38, 41, 43, 0.096);
+          height: 600px;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+      .carousel-container {
+        position: relative;
+        width: 100%;
+        .custom-nav-button {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          background-color: white;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          border: none;
+          padding: 8px;
+          font-size: 20px;
+          cursor: pointer;
+          z-index: 10;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .custom-nav-button.left {
+          left: -20px;
+          z-index: 10;
+        }
+
+        .custom-nav-button.right {
+          right: -20px;
+          z-index: 10;
+        }
+      }
+    }
